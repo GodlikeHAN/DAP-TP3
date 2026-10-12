@@ -1,8 +1,0 @@
-{"epoch":2,"seq":1,"op":"JOIN","value":0,"status":"COMMITTED","request_id":"762b345c-31e1-4f46-8cd4-d6cd13cac801","client_id":"client-1","time":1791812802200}
-{"epoch":2,"seq":2,"op":"JOIN","value":0,"status":"COMMITTED","request_id":"75ac6359-b28d-4d32-92c5-9cbd7b2275ff","client_id":"client-2","time":1791812807389}
-{"epoch":5,"seq":1,"op":"JOIN","value":0,"status":"COMMITTED","request_id":"dcede2c2-aa5b-42b2-be21-e2b9669649af","client_id":"client-3","time":1791812968436}
-{"epoch":9,"seq":1,"op":"JOIN","value":0,"status":"COMMITTED","request_id":"ad7d7cfe-2371-443c-9391-4f0770d1645f","client_id":"client-4","time":1791813043997}
-{"epoch":9,"seq":2,"op":"JOIN","value":0,"status":"COMMITTED","request_id":"dca0000d-d151-4668-b17e-958f16b364c9","client_id":"client-5","time":1791813047004}
-{"epoch":9,"seq":3,"op":"WRITE","value":50,"status":"COMMITTED","request_id":"b1b2aad2-a8ea-44ee-bb99-ea6026c18f4d","client_id":"client-1","time":1791813051985}
-{"epoch":9,"seq":4,"op":"START","value":0,"status":"COMMITTED","request_id":"game-start","client_id":"system","time":1791813057452}
-{"epoch":9,"seq":5,"op":"GUESS","value":30,"status":"COMMITTED","request_id":"winner-r1","client_id":"client-2","time":1791813115095}
