@@ -11,6 +11,7 @@ public record GameState(List<String> members, boolean started, Integer target, i
                 case "START" -> started=true;
                 case "WRITE" -> { target=e.value(); round=1; }
                 case "GUESS" -> { target=e.value(); round++; }
+                case "STOP" -> { members.clear(); started=false; target=null; round=0; lastJoin=0; }
             }
         }
         return new GameState(new ArrayList<>(members),started,target,round,lastJoin);

@@ -1,12 +1,12 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/** Minimal, dependency-free JSON codec for flat objects with string/number/boolean fields. */
 public final class Json {
     private Json() {}
     private static final java.util.Set<String> NUMBERS=java.util.Set.of(
             "epoch","seq","value","time","term","from","lastEpoch","lastSeq",
-            "logSize","target","round","players","guesses","acks","leader","installed");
+            "logSize","target","round","players","guesses","acks","leader","installed",
+            "seconds","nextRound","countdown","online","need","lastValue");
     private static final java.util.Set<String> BOOLEANS=java.util.Set.of("ok","started","activeLeader","committed");
     public static Map<String, String> obj(Object... pairs) {
         if (pairs.length % 2 != 0) throw new IllegalArgumentException("pairs");
